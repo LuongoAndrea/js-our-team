@@ -1,0 +1,22 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-person{
+    width: calc((100% - 120px) / 3);
+    margin: 20px;
+    padding: 40px;
+    overflow: hidden;
+    border-radius: 40px;
+    background-color: rgba(225, 250, 226, 0.788);
+    transition: background-color 1s, border-radius  1s;
+}
+.card-person img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.card-person:hover{
+    background-color: rgba(159, 247, 162, 0.788);
+    border-radius: 30px;
+}
